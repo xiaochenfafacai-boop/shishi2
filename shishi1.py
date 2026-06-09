@@ -14,7 +14,7 @@ import requests
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 TOKEN = os.environ.get('TELEGRAM_TOKEN', '8617895746:AAEghZcmyFkRAEbJQwubfXLhFEzTOcgYBxs')
-WEBHOOK_URL = os.environ.get('WEBHOOK_URL', 'https://shishi-778gg.onrender.com')
+WEBHOOK_URL = os.environ.get('WEBHOOK_URL', 'https://shishi-998gg.onrender.com')
 PORT = int(os.environ.get('PORT', 5000))
 
 # 顶级系统创始人UID（拥有最高买家资格，且负责审核续费凭证）
